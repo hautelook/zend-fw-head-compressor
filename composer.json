@@ -12,9 +12,11 @@
         "php": ">=5.2.0"
     },
     "autoload": {
-        "psr-0": {"Dm": "src/"}
-    },
-    "classmap": [
-        "src/Tools"
-    ]
+        "psr-4": {
+            "Dm\\": "src/"
+        },
+        "classmap": [
+            "src/Tools"
+        ]
+    }
 }
